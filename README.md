@@ -4,18 +4,12 @@ A memory system simulator that includes cache and DRAM modeling and extends to m
 
 ## Modes
 The memory design is implemented to run in multiple to modes.
-### Mode A
-Simulates a single cache module to estimate cache hit and miss rates.
-### Mode B
-Adds a unified L2 cache connected to ICACHE and DCACHE, with DRAM backing the L2 cache.    
-### Mode C
-Models DRAM with row buffers, supporting open-page and close-page policies.
-### Mode D
-Simulates a dual-core processor accessing a shared L2 cache with LRU replacement.
-### Mode E
-Implements Static Way Partitioning (SWP) in the shared L2 cache to allocate ways per core.
-### Mode F
-Implements a dynamic cache partitioning scheme (i.e., Utility-Based Cache Partitioning).
+- Mode A: Simulates a single cache module to estimate cache hit and miss rates.
+- Mode B: Adds a unified L2 cache connected to ICACHE and DCACHE, with DRAM backing the L2 cache.    
+- Mode C: Models DRAM with row buffers, supporting open-page and close-page policies.
+- Mode D: Simulates a dual-core processor accessing a shared L2 cache with LRU replacement.
+- Mode E: Implements Static Way Partitioning (SWP) in the shared L2 cache to allocate ways per core.
+- Mode F: Implements a dynamic cache partitioning scheme (i.e., Utility-Based Cache Partitioning).
 
 ## Implementation
 
