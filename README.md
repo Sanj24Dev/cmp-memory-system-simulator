@@ -1,6 +1,6 @@
 # cmp-memory-system-simulator
 ## Overview
-A memory system simulator that includes cache and DRAM modeling and extends to multicore processors.
+A Chip Multiprocessor memory system simulator that includes cache and DRAM modeling and extends to multicore processors.
 
 ## Modes
 The memory design is implemented to run in multiple to modes.
